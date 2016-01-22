@@ -5,55 +5,55 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
-		box-sizing: border-box;
-	-moz-text-size-adjust: 100%;
-	-ms-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
-	text-size-adjust: 100%;
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 
-	font-family: sans-serif;
+  font-family: sans-serif;
 }
 
 *,*::before, *::after {
-	box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 .tabs {
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
-	text-align: center;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
 }
 
 .tabs > li {
-	display: inline-block;
+  display: inline-block;
 }
 
 .tabs a {
-	display: inline-block;
-	background-color: #e2e2e2;
-	color: #000;
-	text-decoration: none;
-	width: 10px;
-	height: 10px;
-	border-radius: 8px;
-	transition: all 500ms linear;
-	position: relative;
-	bottom: 100%;
-	border: 1px solid grey;
+  display: inline-block;
+  background-color: #e2e2e2;
+  color: #000;
+  text-decoration: none;
+  width: 10px;
+  height: 10px;
+  border-radius: 8px;
+  transition: all 500ms linear;
+  position: relative;
+  bottom: 100%;
+  border: 1px solid grey;
 
 
 }
 
 .tabs a:hover {
-	background-color: #000;
-	color: #fff;
+  background-color: #000;
+  color: #fff;
 }
 
 .argyle {
-	display: none;
+  display: none;
 }
 
 .argyle:target {
-	display: block;
+  display: block;
 }
